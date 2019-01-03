@@ -43,19 +43,6 @@ client.on("message", message => {
         });// Toxic Codes
     };// Toxic Codes
 });// Toxic Codes
-client.on("message", message => {
-  if (message.content === "d#help") {
-      message.react('🌈')
-message.author.send(`**
-d#set 
- -ﻹنشاء الرتبة
-- To create the role of the  dream & Start The drr
-// Toxic Codes// Toxic Codes// Toxic Codes
-خطوات لو الرتبة م أشتغلت .!!
-1- ضع رتبة فوق الالوان أو الرتب الملونه لو فيه// Toxic Codes
-2- ضع رتبة البوت فوق رتبة 
 
-**`)// Toxic Codes
-  })
    
 client.login(process.env.BOT_TOKEN)
