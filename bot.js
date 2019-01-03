@@ -56,6 +56,6 @@ d#set
 2- ضع رتبة البوت فوق رتبة 
 
 **`)// Toxic Codes
-  });
+  })
    
 client.login(process.env.BOT_TOKEN)
