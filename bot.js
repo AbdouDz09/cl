@@ -6,7 +6,7 @@ const prefix = "#";
 
    client.on("message", message => {
       
-      var prrfix = "%"
+      var prefix = "%"
       
   if (message.author.bot) return;
   if(!message.channel.guild)return;
