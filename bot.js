@@ -5,7 +5,9 @@ const prefix = "#";
 // Toxic Codes
 
    client.on("message", message => {
- 
+      
+      var prrfix = "%"
+      
   if (message.author.bot) return;
   if(!message.channel.guild)return;
   if (!profile[message.author.id]) profile[message.author.id] = {
